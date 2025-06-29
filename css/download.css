@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.index{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.index a{
+    color: red;
+}
+
+.头部{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.头部 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main{
+    height: 116vh;
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+}
+
+.main h2{
+    padding-top: 30px;
+    font-size: 40px;
+    font-family: 宋体;
+    text-align: center;
+    color: black;
+}
+
+.驱动{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    height: 100%;
+    border: 5px solid darkred;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.工具{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    height: 100%;
+    border: 5px solid darkred;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.驱动 dt{
+    color: red;
+}
+
+.工具 dt{
+    color: red;
+}
+
+.左{
+    float: left;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.右{
+    float: right;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+

@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 宋体;
+}
+
+h1,p{
+    text-align: left;
+}
+h1{
+    font-size: 30px;
+    margin-left: 80px;
+}
+
+.return{
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
+
+.return a{
+    color: red;
+}
+
+.hand{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.hand img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main{
+    height: 4100px;
+    margin: 0;
+    padding: 0;
+    background-color: darkred;
+}
+
+.主板{
+    top: 10px;
+    position: relative;
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.主板图片{
+    top: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 80%;
+    height: 1300px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+}
+
+.主板图片 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.主板分类{
+    top: 20px;
+    position: relative;
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.主板芯片组{
+    top: 30px;
+    position: relative;
+    width: 80%;
+    height: 150px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.芯片组图片{
+    top: 40px;
+    margin-top: 10px;
+    position: relative;
+    width: 80%;
+    height: 700px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+}
+
+.芯片组图片 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.主板命名规则{
+    top: 50px;
+    position: relative;
+    width: 80%;
+    height: 180px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.命名图片{
+    top: 60px;
+    margin-top: 10px;
+    position: relative;
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+}
+
+.命名图片 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.主板品牌{
+    top: 70px;
+    position: relative;
+    width: 80%;
+    height: 120px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.主板通用后缀解释{
+    top: 80px;
+    position: relative;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.主板大小{
+    top: 90px;
+    position: relative;
+    width: 80%;
+    height: 350px;
+    text-align: center;
+    left: 10%;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+    background-color: white;
+}

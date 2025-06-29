@@ -1,0 +1,333 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 20px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 宋体;
+}
+
+body{
+	font-size: 20px;
+}
+
+.indexhead{
+	width: 100%;
+	height: 150px;
+}
+
+.user{
+	position: absolute;
+	right: 100px;
+	height: 20px;
+	width: 80px;
+	top: 30px;
+}
+
+.user-link{
+	color: red;
+	display: inline-block;
+}
+
+.user-link-ol{
+	text-align: right;
+	display: none;
+	float: right;
+	width: 100px;
+	border-radius: 5px;
+}
+
+.user-link-ol a{
+	color: white;
+}
+
+.user-link:hover + .user-link-ol{
+	display: block;
+}
+
+.user-link-ol:hover{
+	display: block;
+}
+
+.search{
+	position: absolute;
+	right: 200px;
+	height: 20px;
+	width: 40px;
+	top: 30px;
+}
+
+.search-link{
+	color: red;
+	display: inline-block;
+}
+
+.search-link-ol{
+	display: none;
+	float: right;
+	width: 200px;
+	background: black;
+	border-radius: 10px;
+	position: relative;
+	z-index: 100;
+}
+
+.search-link-ol a{
+	color: white;
+}
+
+.search-link-ol input,button{
+	width: 200px;
+	height: 30px;
+	border-radius: 5px;
+	border: 2px solid black;
+}
+
+.search-link-ol button{
+	width: 205px;
+	color: black;
+}
+
+.search-link:hover + .search-link-ol{
+	display: block;
+}
+.search-link-ol:hover{
+	display: block;
+}
+
+.must{
+	position: absolute;
+	left: 100px;
+	height: 200px;
+	width: 800px;
+	top: 30px;
+}
+
+.must-link{
+	color: red;
+	display: inline-block;
+}
+
+.must-link-ol{
+	width: 400px;
+	overflow: hidden;
+	display: none;
+	z-index: 100;
+}
+
+.must-link-ol li{
+	width: 150px;
+	float: left;
+}
+
+.help{
+	width: 300px;
+	float: left;
+}
+
+.must-link-ol a{
+	color: white;
+}
+
+
+.must-link:hover + .must-link-ol{
+	display: block;
+}
+
+.must-link-ol:hover{
+	display: block;
+}
+
+.scroll-container {
+	text-align: center;
+    max-width: 100%;
+	height: 750px;
+    overflow: hidden;
+    position: relative;
+	background-color: darkred;
+}
+
+.scroll-container video{
+	width: 1500px;
+	height: 750px;
+	object-fit: cover;
+}
+ 
+.scroll-content {
+	height: 1000px;
+    display: flex;
+    animation: scroll 10s linear infinite; /* 动画效果：10秒内线性滚动，无限循环 */
+}
+ 
+.scroll-image {
+    width: 100%;
+	height: 100%;
+    flex-shrink: 0;
+	object-fit: cover;
+}
+ 
+/* 关键帧动画定义 */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-200%); /* 滚动到最后一个图片之外的位置 */
+    }
+}
+
+.computer-list{
+	margin: 0 auto;
+	width: 100%;
+	height: 520px;
+	background-color: black;
+	padding-top: 30px;
+}
+
+.computer-list header{
+	font-family: 宋体;
+	width: 400px;
+	height: 100px;
+	margin: 0 auto;
+	margin-top: 10px;
+	line-height: 100px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: white;
+}
+
+.computer-list p{
+	font-family: 宋体;
+	margin-top: 30px;
+	text-align: center;
+	color: lightseagreen;
+	margin-bottom: 40px;
+}
+
+.computer-list ul{
+	margin: 0 auto;
+	left: 10%;
+	width: 100%;
+	height: 30%;
+}
+
+.computer-list ul li{
+	width: 250px;
+	height: 250px;
+	border: 3px solid black;
+	float: left;
+	position: relative;
+	left: 15%;
+	border-radius: 50%;
+}
+
+.computer-list ul li img{
+	position: absolute;
+	width: 250px;
+	height: 250px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.computer-list ul li .tihuan{
+	opacity: 0; 
+	transition: all 0.4s;
+	width: 50%;
+	height: 50%;
+}
+
+.computer-list ul li:hover .tihuan{
+	opacity: 1; 
+	transform: translate(-50%, -50%) scale(0.75);
+	width: 200%;
+	height: 200%;
+	position: relative;
+	z-index: 1;
+}
+
+.computer-listul li .tu{
+	transition: all 0.4s;
+	width: 50%;
+	height: 50%;
+}
+
+.computer-list ul li:hover .tu{
+	opacity: 0;
+	transform: translate(-50%, -50%) scale(0.5);
+}
+
+.final{
+	width: 100%;
+	height: 40px;
+	background: black;
+	text-align: center;
+}
+.final p{
+	padding-top: 10px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: white;
+}
+
+.图标{
+	width: 100%;
+	height: 150px;
+}
+
+.图标 img{
+	width: 100%;
+	height: 150px;
+	position: relative;
+	object-fit: cover;
+}
+
+.留言块 {
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: black;
+	padding: 20px;
+}
+
+.留言块 h1,label,button{
+	font-family: 宋体;
+	text-align: center;
+	color: white;
+}
+
+.留言组件 input,textarea {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+.留言组件 textarea {
+	resize: vertical;
+	height: 100px;
+}
+.按钮 {
+	width: 100%;
+	padding: 10px;
+	background-color: red;
+	color: #000000;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.按钮:hover {
+	background-color: darkred;
+}
+
+.box1{
+	position: absolute;
+	height: 720px;
+	width: 10%;
+	background-color: red;
+	z-index: 1;
+}
